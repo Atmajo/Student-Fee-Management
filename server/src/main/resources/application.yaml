@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sfm
+    username: root
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+  web:
+    resources:
+      static-locations: classpath:/static/
